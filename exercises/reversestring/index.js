@@ -9,3 +9,21 @@
 function reverse(str) {}
 
 module.exports = reverse;
+
+
+// function reverse(str) {
+//   return str.split("").reduce((rev, char) => char + rev,"")
+//  }
+
+// function reverse(str) {
+//   let reversed = ""
+
+//   for (let el of str){
+//     reversed = el + reversed;
+//   }
+//   return reversed;
+// }
+
+// function reverse(str) {
+//   return str.split("").reverse().join("")
+// }

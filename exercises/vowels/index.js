@@ -10,3 +10,15 @@
 function vowels(str) {}
 
 module.exports = vowels;
+
+
+// function vowels(str) {
+//   let counter = 0;
+//   const vowelsArr = ["a", "e", "i", "o", "u"]
+//   for (let char of str){
+//     if (vowelsArr.includes(char.toLowerCase())){
+//       counter++
+//     }
+//   }
+//   return counter;
+// }

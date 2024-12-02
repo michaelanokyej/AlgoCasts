@@ -15,3 +15,41 @@ class Node {}
 class Tree {}
 
 module.exports = { Tree, Node };
+
+// class Node {
+//   constructor(data){
+//     this.data = data;
+//     this.children = []
+//   }
+
+//   add(data){
+//     this.children.push(new Node(data))
+//   }
+//   remove(data){
+//   this.children = this.children.filter(child => child.data === !data);
+//   }
+// }
+
+// class Tree {
+//   constructor(){
+//     this.root = null;
+//   }
+
+//   traverseBF(fn) {
+//     const myArr = [this.root];
+//     while(myArr.length) {
+//       const node = myArr.shift();
+//       myArr.push(...node.children);
+//       fn(node);
+//     }
+//   }
+
+//   traverseDF(fn){
+//     const myArr = [this.root];
+//     while(myArr.length){
+//       const node = myArr.shift();
+//       myArr.unshift(...node.children);
+//       fn(node)
+//     }
+//   }
+// }

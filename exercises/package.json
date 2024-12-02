@@ -10,5 +10,8 @@
     "testEnvironment": "node"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest-cli": "^26.4.2"
+  }
 }

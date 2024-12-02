@@ -10,3 +10,14 @@
 function capitalize(str) {}
 
 module.exports = capitalize;
+
+
+// function capitalize(str) {
+//   const arr = str.split(" ");
+//   const words = [];
+//   for (word of arr ){
+//     words.push(word[0].toUpperCase() + word.slice(1))
+    
+//   }
+//   return words.join(" ");
+// }

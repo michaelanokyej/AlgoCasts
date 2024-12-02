@@ -10,3 +10,19 @@
 function palindrome(str) {}
 
 module.exports = palindrome;
+
+// function palindrome(str) {
+//   const reveresed = str.split('').reverse().join('');
+//   return str === reveresed ;
+// }
+
+
+// function palindrome(str) {
+//   const rever = str.split("").reverse().join("");
+
+//   if (rever === str) {
+//     return true;
+//   }
+
+//   return false;
+// }
