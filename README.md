@@ -1,3 +1,3 @@
 # AlgoCasts
 
-Companion repo to a course on Udemy.com
+Common Algo exercises for technical interviews.
